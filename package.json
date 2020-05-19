@@ -1,0 +1,20 @@
+{
+  "name": "Employee-Tracker-MySQL",
+  "version": "1.0.0",
+  "description": "",
+  "main": "employeesReadData.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaykim92/Employee-Tracker-MySQL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaykim92/Employee-Tracker-MySQL/issues"
+  },
+  "homepage": "https://github.com/jaykim92/Employee-Tracker-MySQL#readme"
+}
