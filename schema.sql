@@ -32,9 +32,21 @@ Create TABLE Employee
 -- seeds
 INSERT INTO Department (dept_name)
 VALUES ("Admin");
+INSERT INTO Department (dept_name)
+VALUES ("Instructional Team");
 
 INSERT INTO Emp_Role (role_title, salary, dept_id)
-VALUES ("Supervisor", 50000.50, 1);
+VALUES ("Student Success Manager", 70000, 1);
+INSERT INTO Emp_Role (role_title, salary, dept_id)
+VALUES ("Instructor", 60000, 2);
+INSERT INTO Emp_Role (role_title, salary, dept_id)
+VALUES ("TA", 50000, 2);
 
+INSERT INTO Employee (first_name, last_name, role_id)
+VALUES ("Jeff", "Howell", 1);
 INSERT INTO Employee (first_name, last_name, role_id, manager_id)
-VALUES ("Jay", "Kim", 1, 1);
+VALUES ("Chad", "Tao", 3, 4);
+INSERT INTO Employee (first_name, last_name, role_id, manager_id)
+VALUES ("Dave", "Cox", 3, 4);
+INSERT INTO Employee (first_name, last_name, role_id, manager_id)
+VALUES ("Kyle", "Kenney", 2, 1);
