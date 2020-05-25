@@ -219,7 +219,6 @@ updateManager = () => {
 updateEmpRoles = () => {
   connection.query("SELECT Employee.id, Emp_Role.role_title, CONCAT(first_name, ' ', last_name) AS full_name FROM Employee INNER JOIN Emp_Role ON Employee.role_id = Emp_Role.id", (err, rows) => {
     if (err) throw err;
-    console.log(rows)
     const employeeList = rows.map(row => row.full_name)
     inquirer.prompt([
       {
